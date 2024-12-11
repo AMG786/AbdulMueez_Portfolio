@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  android_developer,
+  netsol,
 } from "../assets";
 
 export const navLinks = [
@@ -54,8 +56,8 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Android developer",
+    icon: android_developer,
   },
 ];
 
@@ -116,16 +118,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer",
+    company_name: "Netsol Technology",
+    icon: netsol,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - Jul 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed Android applications using Kotlin and Java, following MVVM architecture and Clean Architecture design patterns for scalable and maintainable codebases.",
+      "Collaborated in an Agile Scrum team, leveraging tools like Jira for sprint planning, task tracking, and project management.",
+      "Delivered high-quality mobile applications with a focus on performance optimization, UI/UX consistency, and cross-team collaboration.",
+      "Gained expertise in teamwork and problem-solving, contributing to the successful execution of complex projects within tight deadlines.",
     ],
   },
   {

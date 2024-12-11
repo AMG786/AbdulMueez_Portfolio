@@ -47,11 +47,21 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
+        {/*
         I'm a skilled software developer with experience in TypeScript and
         JavaScript, and expertise in frameworks like React, Node.js, and
         Three.js. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
+        */}
+        I am a passionate and skilled software developer with 
+        extensive experience in Android development using Java, Kotlin, and Android Studio, 
+        as well as web development with React, Next.js, Node.js, and TypeScript. With a 
+        strong foundation in building efficient, scalable, and user-friendly applications, 
+        I thrive on creating impactful solutions for real-world challenges. 
+        Whether it's crafting seamless mobile apps or developing dynamic web applications, 
+        I take pride in delivering quality work and collaborating closely with clients to 
+        turn their ideas into reality. Let’s create something extraordinary together! {String.fromCodePoint(0x1F642)}
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
