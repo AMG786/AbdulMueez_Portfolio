@@ -52,7 +52,7 @@ const services = [
     icon: android_developer,
   },
   {
-    title: "Web Developer",
+    title: "Web Developer",    
     icon: web,
   },
   {
@@ -118,19 +118,19 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Software Engineer (Private Consulting)",
-    company_name: "HackersJack",
-    icon: hackersjack,
-    iconBg: "#ffffff",
-    date: "March 2022 - Jul 2023",
-    points: [
-      "Conducted comprehensive application testing, systematically identifying and resolving bugs to enhance overall software performance and user experience",
-      "Collaborated with a development team to design, implement, and integrate new application modules, contributing to the expansion of software functionality",
-      "Performed thorough quality assurance testing to ensure smooth application operation and optimal user interaction",
-      "Participated in collaborative development processes, working closely with team members to achieve project milestones and maintain high standards of software quality.",
-    ],
-  },
+  // {
+  //   title: "Software Engineer (Private Consulting)",
+  //   company_name: "HackersJack",
+  //   icon: hackersjack,
+  //   iconBg: "#ffffff",
+  //   date: "March 2022 - Jul 2023",
+  //   points: [
+  //     "Conducted comprehensive application testing, systematically identifying and resolving bugs to enhance overall software performance and user experience",
+  //     "Collaborated with a development team to design, implement, and integrate new application modules, contributing to the expansion of software functionality",
+  //     "Performed thorough quality assurance testing to ensure smooth application operation and optimal user interaction",
+  //     "Participated in collaborative development processes, working closely with team members to achieve project milestones and maintain high standards of software quality.",
+  //   ],
+  // },
   {
     title: "Software Developer",
     company_name: "Netsol Technology",
