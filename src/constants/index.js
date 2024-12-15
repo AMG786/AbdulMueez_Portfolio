@@ -25,6 +25,10 @@ import {
   threejs,
   android_developer,
   netsol,
+  deakinUniversity,
+  hackersjack,
+  keyob,
+  FastNuces,
 } from "../assets";
 
 export const navLinks = [
@@ -118,10 +122,23 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer (Private Consulting)",
+    company_name: "HackersJack",
+    icon: hackersjack,
+    iconBg: "#ffffff",
+    date: "March 2022 - Jul 2023",
+    points: [
+      "Conducted comprehensive application testing, systematically identifying and resolving bugs to enhance overall software performance and user experience",
+      "Collaborated with a development team to design, implement, and integrate new application modules, contributing to the expansion of software functionality",
+      "Performed thorough quality assurance testing to ensure smooth application operation and optimal user interaction",
+      "Participated in collaborative development processes, working closely with team members to achieve project milestones and maintain high standards of software quality.",
+    ],
+  },
+  {
     title: "Software Developer",
     company_name: "Netsol Technology",
     icon: netsol,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "March 2022 - Jul 2023",
     points: [
       "Developed Android applications using Kotlin and Java, following MVVM architecture and Clean Architecture design patterns for scalable and maintainable codebases.",
@@ -131,62 +148,90 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Teacher Assistant",
+    company_name: "FAST NUCES",
+    icon: FastNuces,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Assisted the professor in evaluating assignments and projects for the Software Mobile Devices course.",
+      "Conducted demo sessions to review and assess students' assignments, ensuring clarity of concepts and proper implementation.",
+      "Supported students by addressing queries related to course assignments and projects.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
+    title: "Software Engineer intern",
+    company_name: "Keyob",
+    icon: keyob,
+    iconBg: "#FFFFFF",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducted comprehensive software testing, identifying bugs and ensuring system functionality and reliability.",
+      "Reviewed the entire software flow to validate processes and ensure seamless user experience.",
+      "Participated in team meetings to discuss software improvements and provide insights based on testing outcomes.",
+      "Collaborated with the development team to enhance software quality through detailed feedback and testing reports.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Teacher Assistant",
+    company_name: "FAST NUCES",
+    icon: FastNuces,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Assisted the professor during lab sessions, guiding students in implementing Object-Oriented Programming (OOP) concepts and resolving technical issues.",
+      "Reviewed and evaluated students' assignments and code, ensuring compliance with OOP principles and best practices.",
+      "Helped students by addressing queries and clarifying complex concepts during lab sessions.",
     ],
   },
 ];
+
+const educations = [
+  {
+    title: "Master of Information Technology",
+    company_name: "Deakin University Burwood",
+    icon: deakinUniversity,
+    iconBg: "#ffffff",
+    date: "March 2022 - Jul 2023",
+    points: [
+      "Conducted comprehensive application testing, systematically identifying and resolving bugs to enhance overall software performance and user experience",
+      "Collaborated with a development team to design, implement, and integrate new application modules, contributing to the expansion of software functionality",
+      "Performed thorough quality assurance testing to ensure smooth application operation and optimal user interaction",
+      "Participated in collaborative development processes, working closely with team members to achieve project milestones and maintain high standards of software quality.",
+    ],
+  },
+  {
+    title: "Bachelor of Computer Science",
+    company_name: "Fast National University of Computer and Emerging Science",
+    icon: FastNuces,
+    iconBg: "#ffffff",
+    date: "March 2022 - Jul 2023",
+    points: [
+      "Developed Android applications using Kotlin and Java, following MVVM architecture and Clean Architecture design patterns for scalable and maintainable codebases.",
+      "Collaborated in an Agile Scrum team, leveraging tools like Jira for sprint planning, task tracking, and project management.",
+      "Delivered high-quality mobile applications with a focus on performance optimization, UI/UX consistency, and cross-team collaboration.",
+      "Gained expertise in teamwork and problem-solving, contributing to the successful execution of complex projects within tight deadlines.",
+    ],
+  },
+];
+
 
 const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Ikram Akbar",
+    designation: "Founder",
+    company: "hackersjack.com",
+    image: "https://media.licdn.com/dms/image/v2/C5603AQGBT7U38OdMvg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1610115220543?e=1739404800&v=beta&t=_vhTDcu0YWJtUbj18mzGUqdAk1X75dh_25B6trD-ApA",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Dr. Mifrah Ahmad",
+    designation: "Senior Lecturer",
+    company: "Deakin University",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQHDqyi5XPI_hA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698298647298?e=1739404800&v=beta&t=dK2O62KVQyYoonAkO2pcjD9MBQBEQkhTZ2co0eajvmY",
   },
   {
     testimonial:
@@ -264,4 +309,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, educations, testimonials, projects };

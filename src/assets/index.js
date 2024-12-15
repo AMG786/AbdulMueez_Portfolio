@@ -26,6 +26,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import netsol from "./company/netsol.jpg";
+import FastNuces from "./company/FastNuces.png";
+import keyob from "./company/Keyob.jpg";
+import hackersjack from "./company/hackersjack.png";
+import deakinUniversity from "./company/DeakinUniversity.png"; 
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -57,6 +61,9 @@ export {
   threejs,
   meta,
   netsol,
+  deakinUniversity,
+  hackersjack,
+  FastNuces,
   shopify,
   starbucks,
   tesla,
@@ -64,4 +71,5 @@ export {
   jobit,
   tripguide,
   android_developer,
+  keyob,
 };
