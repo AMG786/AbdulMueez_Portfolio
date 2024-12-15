@@ -27,7 +27,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import netsol from "./company/netsol.jpg";
 import FastNuces from "./company/FastNuces.png";
-import keyob from "./company/Keyob.jpg";
+import keyob from "./company/keyob.jpg";
+
 import hackersjack from "./company/hackersjack.png";
 import deakinUniversity from "./company/DeakinUniversity.png"; 
 
