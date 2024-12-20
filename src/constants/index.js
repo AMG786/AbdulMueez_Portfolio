@@ -21,6 +21,9 @@ import {
   shopify,
   carrent,
   jobit,
+  vintrade,
+  NoteMinds,
+  MediaMancer,
   tripguide,
   threejs,
   android_developer,
@@ -33,15 +36,19 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
+    id: "#about",
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "https://drive.google.com/file/d/1NMtcwy2J_XUN6SikqvJQy0ONkB68lD2T/view?usp=sharing",
+    title: "Resume",
   },
   {
-    id: "contact",
+    id: "#work",
+    title: "Work",
+  },  
+  {
+    id: "#contact",
     title: "Contact",
   },
 ];
@@ -242,58 +249,60 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "NoteMinds",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An AI-powered platform designed to convert videos, PDFs, and books into interactive conversations. It provides users with features like summarization, note-taking, multi-language translation, and question-answer extraction to enhance learning and productivity.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: NoteMinds, // replace `notemindsImage` with the actual image variable or path
+    // source_code_link: "https://github.com/AMG786/MediaMancer",
+    // live_link: "https://github.com/AMG786/MediaMancer",
+  },  
+  {
+    name: "MediaMancer",
+    description:
+      "A platform that leverages a Large Language Model (LLM) to generate platform-specific posts by gathering user input through targeted questions.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: MediaMancer,
+    source_code_link: "https://github.com/AMG786/MediaMancer",
+    live_link: "https://media-mancer.vercel.app/",
+  },  
+  {
+    name: "Vintrade",
+    description:
+      "A modern e-commerce application built on React and Firebase for buying and selling vintage products. The application features product listing categorized by type, cart management, a discount system, and seamless product purchasing and selling functionality.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -301,8 +310,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: vintrade,
+    source_code_link: "https://github.com/AbdulMueez786/vintrade",
+    live_link: "https://media-mancer.vercel.app/",
   },
 ];
 

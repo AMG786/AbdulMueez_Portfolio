@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import play from "./play.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -30,10 +31,13 @@ import FastNuces from "./company/FastNuces.png";
 import keyob from "./company/keyob.jpg";
 
 import hackersjack from "./company/hackersjack.png";
-import deakinUniversity from "./company/DeakinUniversity.png"; 
+import deakinUniversity from "./company/DeakinUniversity.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import vintrade from "./Vintrade.png";
+import NoteMinds from "./NoteMinds.png";
+import MediaMancer from "./MediaMancer.png";
 import tripguide from "./tripguide.png";
 
 import android_developer from "./android_developer.png";
@@ -45,6 +49,7 @@ export {
   mobile,
   web,
   github,
+  play,
   menu,
   close,
   css,
@@ -70,6 +75,9 @@ export {
   tesla,
   carrent,
   jobit,
+  vintrade,
+  NoteMinds,
+  MediaMancer,
   tripguide,
   android_developer,
   keyob,
