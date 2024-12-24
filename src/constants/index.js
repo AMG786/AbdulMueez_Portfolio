@@ -278,6 +278,76 @@ const testimonials = [
 ];
 
 const projects = [
+  
+  {
+    name: "NoteMinds",
+    description:
+      "An AI-powered platform designed to convert videos, PDFs, and books into interactive conversations. It provides users with features like summarization, note-taking, multi-language translation, and question-answer extraction to enhance learning and productivity.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: NoteMinds, // replace `notemindsImage` with the actual image variable or path
+    // source_code_link: "https://github.com/AMG786/MediaMancer",
+    // live_link: "https://github.com/AMG786/MediaMancer",
+  },  
+  {
+    name: "MediaMancer",
+    description:
+      "A platform that leverages a Large Language Model (LLM) to generate platform-specific posts by gathering user input through targeted questions.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: MediaMancer,
+    source_code_link: "https://github.com/AMG786/MediaMancer",
+    live_link: "https://media-mancer.vercel.app/",
+  },  
+  {
+    name: "Vintrade",
+    description:
+      "A modern e-commerce application built on React and Firebase for buying and selling vintage products. The application features product listing categorized by type, cart management, a discount system, and seamless product purchasing and selling functionality.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vintrade,
+    source_code_link: "https://github.com/AbdulMueez786/vintrade",
+    live_link: "https://media-mancer.vercel.app/",
+  },
+];
+
+const projectsAndroid = [
   {
     name: "KUN - Smart Home Controller",
     description:
@@ -353,72 +423,10 @@ const projects = [
      image: workload,
     source_code_link: "https://github.com/AbdulMueez786/workLoad"
   },
-  {
-    name: "NoteMinds",
-    description:
-      "An AI-powered platform designed to convert videos, PDFs, and books into interactive conversations. It provides users with features like summarization, note-taking, multi-language translation, and question-answer extraction to enhance learning and productivity.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "AI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: NoteMinds, // replace `notemindsImage` with the actual image variable or path
-    // source_code_link: "https://github.com/AMG786/MediaMancer",
-    // live_link: "https://github.com/AMG786/MediaMancer",
-  },  
-  {
-    name: "MediaMancer",
-    description:
-      "A platform that leverages a Large Language Model (LLM) to generate platform-specific posts by gathering user input through targeted questions.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-    ],
-    image: MediaMancer,
-    source_code_link: "https://github.com/AMG786/MediaMancer",
-    live_link: "https://media-mancer.vercel.app/",
-  },  
-  {
-    name: "Vintrade",
-    description:
-      "A modern e-commerce application built on React and Firebase for buying and selling vintage products. The application features product listing categorized by type, cart management, a discount system, and seamless product purchasing and selling functionality.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: vintrade,
-    source_code_link: "https://github.com/AbdulMueez786/vintrade",
-    live_link: "https://media-mancer.vercel.app/",
-  },
+  
 ];
 
-export { services, technologies, experiences, educations, testimonials, projects };
+
+
+
+export { services, technologies, experiences, educations, testimonials, projects,projectsAndroid };

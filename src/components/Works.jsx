@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import { play } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { projects,projectsAndroid } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -166,7 +166,7 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
+        {projectsAndroid.map((project, index) => (
           <ProjectCardAndroid key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
