@@ -37,10 +37,15 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import vintrade from "./Vintrade.png";
 import NoteMinds from "./NoteMinds.png";
+import FundRaisingApp from "./FundRaisingApp.jpg";
+import kun from "./kun.jpg";
+import workload from "./workload.png";
+
 import MediaMancer from "./MediaMancer.png";
 import tripguide from "./tripguide.png";
 
 import android_developer from "./android_developer.png";
+import azure from "./azure.png";
 
 export {
   logo,
@@ -77,8 +82,12 @@ export {
   jobit,
   vintrade,
   NoteMinds,
+  workload,
+  FundRaisingApp,
+  kun,
   MediaMancer,
   tripguide,
   android_developer,
+  azure,
   keyob,
 };

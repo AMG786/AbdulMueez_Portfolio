@@ -23,10 +23,14 @@ import {
   jobit,
   vintrade,
   NoteMinds,
+  workload,
+  FundRaisingApp,
+  kun,
   MediaMancer,
   tripguide,
   threejs,
   android_developer,
+  azure,
   netsol,
   deakinUniversity,
   hackersjack,
@@ -63,8 +67,8 @@ const services = [
     icon: web,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Azure",
+    icon: azure,
   },
   
 ];
@@ -72,7 +76,7 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: android_developer,
   },
   {
     name: "CSS 3",
@@ -139,6 +143,32 @@ const experiences = [
   //   ],
   // },
   {
+    title: "SEBE Peer Mentor",
+    company_name: "Deakin University",
+    icon: deakinUniversity,
+    iconBg: "#ffffff",
+    date: "Feb 2024 - Apr 2024",
+    points: [
+      "Conducted mentoring sessions to assist new students in transitioning to university life.",
+      "Explained university programs, requirements, and terminologies to enhance student understanding.",
+      "Acted as an information bridge between university staff and students, ensuring clear communication.",
+      "Referred students to appropriate university services for additional support and guidance."
+    ]
+  },
+  {
+    title: "Software Engineer (Private Consulting)",
+    company_name: "HackersJack",
+    icon: hackersjack,
+    iconBg: "#E6DEDD",
+    date: "Jul 2023 - Nov 2023",
+    points: [
+      "Developed and tested software modules, including quiz, school, and student systems, to meet client requirements.",
+      "Collaborated with remote teams, ensuring timely project completion and adherence to standards.",
+      "Enhanced application usability by implementing improved layouts, designs, and functional features.",
+      "Demonstrated strong problem-solving and debugging skills, ensuring robust and efficient software delivery."
+    ]
+  },
+  {
     title: "Software Developer",
     company_name: "Netsol Technology",
     icon: netsol,
@@ -196,12 +226,12 @@ const educations = [
     company_name: "Deakin University Burwood",
     icon: deakinUniversity,
     iconBg: "#ffffff",
-    date: "March 2022 - Jul 2023",
+    date: "Jul 2023 - May 2025",
     points: [
-      "Conducted comprehensive application testing, systematically identifying and resolving bugs to enhance overall software performance and user experience",
-      "Collaborated with a development team to design, implement, and integrate new application modules, contributing to the expansion of software functionality",
-      "Performed thorough quality assurance testing to ensure smooth application operation and optimal user interaction",
-      "Participated in collaborative development processes, working closely with team members to achieve project milestones and maintain high standards of software quality.",
+      // "Conducted comprehensive application testing, systematically identifying and resolving bugs to enhance overall software performance and user experience",
+      // "Collaborated with a development team to design, implement, and integrate new application modules, contributing to the expansion of software functionality",
+      // "Performed thorough quality assurance testing to ensure smooth application operation and optimal user interaction",
+      // "Participated in collaborative development processes, working closely with team members to achieve project milestones and maintain high standards of software quality.",
     ],
   },
   {
@@ -209,12 +239,12 @@ const educations = [
     company_name: "Fast National University of Computer and Emerging Science",
     icon: FastNuces,
     iconBg: "#ffffff",
-    date: "March 2022 - Jul 2023",
+    date: "Aug 2017 - Dec 2021",
     points: [
-      "Developed Android applications using Kotlin and Java, following MVVM architecture and Clean Architecture design patterns for scalable and maintainable codebases.",
-      "Collaborated in an Agile Scrum team, leveraging tools like Jira for sprint planning, task tracking, and project management.",
-      "Delivered high-quality mobile applications with a focus on performance optimization, UI/UX consistency, and cross-team collaboration.",
-      "Gained expertise in teamwork and problem-solving, contributing to the successful execution of complex projects within tight deadlines.",
+      // "Developed Android applications using Kotlin and Java, following MVVM architecture and Clean Architecture design patterns for scalable and maintainable codebases.",
+      // "Collaborated in an Agile Scrum team, leveraging tools like Jira for sprint planning, task tracking, and project management.",
+      // "Delivered high-quality mobile applications with a focus on performance optimization, UI/UX consistency, and cross-team collaboration.",
+      // "Gained expertise in teamwork and problem-solving, contributing to the successful execution of complex projects within tight deadlines.",
     ],
   },
 ];
@@ -248,6 +278,81 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "KUN - Smart Home Controller",
+    description:
+      "An Android application that uses natural language processing to control smart home appliances and notify users of potential threats.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "TensorFlow",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "pink-text-gradient",
+      }
+    ],
+     image: kun,
+    source_code_link: "https://github.com/AbdulMueez786/KUN"
+  },
+  {
+    name: "Fund Raising App",
+    description:
+      "An Android application designed to facilitate fundraising efforts, featuring Firebase Authentication, Firestore, Realtime Database, and push notifications.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OneSignal",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: FundRaisingApp,
+    source_code_link: "https://github.com/AbdulMueez786/APPCON_2021/tree/master"
+  },
+  {
+    name: "WorkLoad App",
+    description:
+      "An Android application developed for managers to supervise employees within organizations, featuring Firebase Authentication, Firestore, SQLite, and push notifications.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "SQLite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OneSignal",
+        color: "pink-text-gradient",
+      }
+    ],
+     image: workload,
+    source_code_link: "https://github.com/AbdulMueez786/workLoad"
+  },
   {
     name: "NoteMinds",
     description:
