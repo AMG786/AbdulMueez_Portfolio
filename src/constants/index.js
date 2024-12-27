@@ -36,6 +36,7 @@ import {
   hackersjack,
   keyob,
   FastNuces,
+  firebase,
 } from "../assets";
 
 export const navLinks = [
@@ -80,7 +81,7 @@ const technologies = [
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: firebase,
   },
   {
     name: "JavaScript",
@@ -142,19 +143,19 @@ const experiences = [
   //     "Participated in collaborative development processes, working closely with team members to achieve project milestones and maintain high standards of software quality.",
   //   ],
   // },
-  {
-    title: "SEBE Peer Mentor",
-    company_name: "Deakin University",
-    icon: deakinUniversity,
-    iconBg: "#ffffff",
-    date: "Feb 2024 - Apr 2024",
-    points: [
-      "Conducted mentoring sessions to assist new students in transitioning to university life.",
-      "Explained university programs, requirements, and terminologies to enhance student understanding.",
-      "Acted as an information bridge between university staff and students, ensuring clear communication.",
-      "Referred students to appropriate university services for additional support and guidance."
-    ]
-  },
+  // {
+  //   title: "SEBE Peer Mentor",
+  //   company_name: "Deakin University",
+  //   icon: deakinUniversity,
+  //   iconBg: "#ffffff",
+  //   date: "Feb 2024 - Apr 2024",
+  //   points: [
+  //     "Conducted mentoring sessions to assist new students in transitioning to university life.",
+  //     "Explained university programs, requirements, and terminologies to enhance student understanding.",
+  //     "Acted as an information bridge between university staff and students, ensuring clear communication.",
+  //     "Referred students to appropriate university services for additional support and guidance."
+  //   ]
+  // },
   {
     title: "Software Engineer (Private Consulting)",
     company_name: "HackersJack",
@@ -226,7 +227,7 @@ const educations = [
     company_name: "Deakin University Burwood",
     icon: deakinUniversity,
     iconBg: "#ffffff",
-    date: "Jul 2023 - May 2025",
+    // date: "Jul 2023 - May 2025",
     points: [
       // "Conducted comprehensive application testing, systematically identifying and resolving bugs to enhance overall software performance and user experience",
       // "Collaborated with a development team to design, implement, and integrate new application modules, contributing to the expansion of software functionality",
@@ -239,7 +240,7 @@ const educations = [
     company_name: "Fast National University of Computer and Emerging Science",
     icon: FastNuces,
     iconBg: "#ffffff",
-    date: "Aug 2017 - Dec 2021",
+    // date: "Aug 2017 - Dec 2021",
     points: [
       // "Developed Android applications using Kotlin and Java, following MVVM architecture and Clean Architecture design patterns for scalable and maintainable codebases.",
       // "Collaborated in an Agile Scrum team, leveraging tools like Jira for sprint planning, task tracking, and project management.",
@@ -343,7 +344,6 @@ const projects = [
     ],
     image: vintrade,
     source_code_link: "https://github.com/AbdulMueez786/vintrade",
-    live_link: "https://media-mancer.vercel.app/",
   },
 ];
 

@@ -47,6 +47,8 @@ import tripguide from "./tripguide.png";
 import android_developer from "./android_developer.png";
 import azure from "./azure.png";
 
+import firebase from "./Firebase.png";
+
 export {
   logo,
   backend,
@@ -90,4 +92,5 @@ export {
   android_developer,
   azure,
   keyob,
+  firebase,
 };
