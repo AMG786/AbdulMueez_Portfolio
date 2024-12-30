@@ -173,16 +173,16 @@ const Works = () => {
           <ProjectCardAndroid key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-      <motion.div variants={textVariant()}>
+      <motion.div className="mt-20" variants={textVariant()}>
       
         {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
         <h2 className={`${styles.sectionHeadText}`}>Web Projects.</h2>
       </motion.div>
 
-      <div className="w-full flex">
+      <div className="w-full flex ">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-10 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following are my React and Next js projects showcase my skills and experience through
           real-world examples of my work. Each project is briefly described with

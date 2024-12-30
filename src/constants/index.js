@@ -84,6 +84,14 @@ const technologies = [
     icon: firebase,
   },
   {
+    name: "git",
+    icon: git,
+  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -95,10 +103,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+ 
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -110,14 +115,6 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
   },
   {
     name: "figma",
