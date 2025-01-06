@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import { play } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects,projectsAndroid } from "../constants";
+import { projects, projectsAndroid } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -15,7 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
-  live_link
+  live_link,
 }) => {
   return (
     <motion.div
@@ -31,19 +31,19 @@ const ProjectCard = ({
           className="w-full h-full object-cover rounded-2xl"
         />
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-        {source_code_link && (
-          <div
-            onClick={() => window.open(source_code_link, "_blank")}
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-          >
-            <img
-              src={github}
-              alt="source code"
-              className="w-1/2 h-1/2 object-contain"
-            />
-          </div>
-        )}
-          
+          {source_code_link && (
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={github}
+                alt="source code"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+          )}
+
           {live_link && (
             <div
               onClick={() => window.open(live_link, "_blank")}
@@ -56,7 +56,6 @@ const ProjectCard = ({
               />
             </div>
           )}
-
         </div>
       </div>
 
@@ -67,10 +66,7 @@ const ProjectCard = ({
 
       <div className="mt-4 flex flex-wrap gap-2">
         {tags.map((tag) => (
-          <p
-            key={`${name}-${tag.name}`}
-            className={`text-[14px] ${tag.color}`}
-          >
+          <p key={`${name}-${tag.name}`} className={`text-[14px] ${tag.color}`}>
             #{tag.name}
           </p>
         ))}
@@ -78,6 +74,7 @@ const ProjectCard = ({
     </motion.div>
   );
 };
+
 const ProjectCardAndroid = ({
   index,
   name,
@@ -85,7 +82,7 @@ const ProjectCardAndroid = ({
   tags,
   image,
   source_code_link,
-  live_link
+  live_link,
 }) => {
   return (
     <motion.div
@@ -94,17 +91,19 @@ const ProjectCardAndroid = ({
       whileTap={{ scale: 0.95 }} // Add click effect
       className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
     >
-      <div className="relative w-full h-[500px]">
-        <img
-          src={image}
-          alt="project_image"
-          className="w-full h-full object-cover rounded-2xl"
-        />
+      <div className="relative w-full sm:h-[550px]">
+        <div className="flex justify-center items-center">
+          <img
+            src={image}
+            alt="project_image"
+            className="w-full sm:w-[280px] h-full sm:h-[550px] object-cover rounded-2xl"
+          />
+        </div>
 
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div
             onClick={() => window.open(source_code_link, "_blank")}
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer m-3"
           >
             <img
               src={github}
@@ -115,17 +114,14 @@ const ProjectCardAndroid = ({
         </div>
       </div>
 
-      <div className="mt-5">
+      <div className="m-5">
         <h3 className="text-white font-bold text-[24px]">{name}</h3>
         <p className="mt-2 text-secondary text-[14px]">{description}</p>
       </div>
 
-      <div className="mt-4 flex flex-wrap gap-2">
+      <div className="mt-4 ml-5 flex flex-wrap gap-2">
         {tags.map((tag) => (
-          <p
-            key={`${name}-${tag.name}`}
-            className={`text-[14px] ${tag.color}`}
-          >
+          <p key={`${name}-${tag.name}`} className={`text-[14px] ${tag.color}`}>
             #{tag.name}
           </p>
         ))}
@@ -133,14 +129,16 @@ const ProjectCardAndroid = ({
     </motion.div>
   );
 };
+
 const Works = () => {
   return (
     <>
-      
+      <p className={`${styles.sectionSubText} `}>My work</p>
+
       <motion.div variants={textVariant()}>
-      
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Mobile Projects. (Android)</h2>
+        <h2 className={`${styles.sectionHeadText}`}>
+          Mobile Projects. (Android)
+        </h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -148,22 +146,26 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following are my Android Projects showcase my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Following are my Android Projects showcase my skills and experience
+          through real-world examples of my work. Each project is briefly
+          described with links to code repositories. It reflects my ability to
+          solve complex problems, work with different technologies, and manage
+          projects effectively.
         </motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projectsAndroid.map((project, index) => (
-          <ProjectCardAndroid key={`project-${index}`} index={index} {...project} />
+          <ProjectCardAndroid
+            key={`project-${index}`}
+            index={index}
+            {...project}
+          />
         ))}
       </div>
-      <motion.div className="mt-20" variants={textVariant()}>
-      
-        {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
+
+      {/* <motion.div className="mt-20" variants={textVariant()}>
+
         <h2 className={`${styles.sectionHeadText}`}>Web Projects.</h2>
       </motion.div>
 
@@ -184,7 +186,7 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
