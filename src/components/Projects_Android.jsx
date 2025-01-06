@@ -130,7 +130,7 @@ const ProjectCardAndroid = ({
   );
 };
 
-const Works = () => {
+const Projects_Android = () => {
   return (
     <>
       <p className={`${styles.sectionSubText} `}>My work</p>
@@ -191,4 +191,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Projects_Android, "");
