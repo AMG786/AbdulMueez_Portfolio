@@ -133,9 +133,10 @@ const ProjectCardAndroid = ({
 const Projects_Android = () => {
   return (
     <>
-      <p className={`${styles.sectionSubText} `}>My work</p>
+     
 
       <motion.div variants={textVariant()}>
+      {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
         <h2 className={`${styles.sectionHeadText}`}>
           Mobile Projects. (Android)
         </h2>
