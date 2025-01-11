@@ -225,6 +225,7 @@ const educations = [
     icon: deakinUniversity,
     iconBg: "#ffffff",
     // date: "Jul 2023 - May 2025",
+    date: "2023 - 2025",
     points: [
       // "Conducted comprehensive application testing, systematically identifying and resolving bugs to enhance overall software performance and user experience",
       // "Collaborated with a development team to design, implement, and integrate new application modules, contributing to the expansion of software functionality",
@@ -237,7 +238,7 @@ const educations = [
     company_name: "Fast National University of Computer and Emerging Science",
     icon: FastNuces,
     iconBg: "#ffffff",
-    // date: "Aug 2017 - Dec 2021",
+    date: "2017 - 2021",
     points: [
       // "Developed Android applications using Kotlin and Java, following MVVM architecture and Clean Architecture design patterns for scalable and maintainable codebases.",
       // "Collaborated in an Agile Scrum team, leveraging tools like Jira for sprint planning, task tracking, and project management.",
