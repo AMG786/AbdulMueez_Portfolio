@@ -30,6 +30,7 @@ import {
   tripguide,
   threejs,
   android_developer,
+  react_native,
   azure,
   netsol,
   deakinUniversity,
@@ -62,6 +63,10 @@ const services = [
   {
     title: "Android developer",
     icon: android_developer,
+  },
+  {
+    title: "React Native",
+    icon: react_native,
   },
   {
     title: "Web Developer",    

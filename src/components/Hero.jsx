@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -20,7 +19,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am  a {/*<br className='sm:block hidden' />*/}
-            Software Engineer
+            Software Engineer {String.fromCodePoint(0x1F642)}
           </p>
         </div>
       </div>

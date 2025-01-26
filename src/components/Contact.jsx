@@ -43,6 +43,7 @@ const Contact = () => {
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        
       )
       .then(
         () => {

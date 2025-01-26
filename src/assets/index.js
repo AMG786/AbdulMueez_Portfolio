@@ -45,6 +45,7 @@ import MediaMancer from "./MediaMancer.png";
 import tripguide from "./tripguide.png";
 
 import android_developer from "./android_developer.png";
+import react_native from "./react_native.png";
 import azure from "./azure.png";
 
 import firebase from "./Firebase.png";
@@ -93,4 +94,5 @@ export {
   azure,
   keyob,
   firebase,
+  react_native,
 };
