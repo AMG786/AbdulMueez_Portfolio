@@ -46,7 +46,7 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "https://drive.google.com/drive/search?q=Abdul_Android_Developer_Resume",
+    id: "https://drive.google.com/file/d/10QNOZ_q-F81KDoUtrYPu3SKZAiAupo8U/view?usp=sharing",
     title: "Resume",
   },
   {
