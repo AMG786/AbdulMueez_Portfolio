@@ -32,6 +32,7 @@ import {
   android_developer,
   react_native,
   azure,
+  aws,
   netsol,
   deakinUniversity,
   hackersjack,
@@ -69,7 +70,7 @@ const services = [
     icon: android_developer,
   },
   {
-    title: "React Native",
+    title: "React",
     icon: react_native,
   },
   {
@@ -77,8 +78,8 @@ const services = [
     icon: web,
   },
   {
-    title: "Azure",
-    icon: azure,
+    title: "Aws",
+    icon: aws,
   },
   
 ];
@@ -162,19 +163,19 @@ const experiences = [
   //     "Referred students to appropriate university services for additional support and guidance."
   //   ]
   // },
-  {
-    title: "Software Engineer (Private Consulting)",
-    company_name: "HackersJack",
-    icon: hackersjack,
-    iconBg: "#E6DEDD",
-    date: "Jul 2023 - Nov 2023",
-    points: [
-      "Developed and tested software modules, including quiz, school, and student systems, to meet client requirements.",
-      "Collaborated with remote teams, ensuring timely project completion and adherence to standards.",
-      "Enhanced application usability by implementing improved layouts, designs, and functional features.",
-      "Demonstrated strong problem-solving and debugging skills, ensuring robust and efficient software delivery."
-    ]
-  },
+  // {
+  //   title: "Software Engineer (Private Consulting)",
+  //   company_name: "HackersJack",
+  //   icon: hackersjack,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jul 2023 - Nov 2023",
+  //   points: [
+  //     "Developed and tested software modules, including quiz, school, and student systems, to meet client requirements.",
+  //     "Collaborated with remote teams, ensuring timely project completion and adherence to standards.",
+  //     "Enhanced application usability by implementing improved layouts, designs, and functional features.",
+  //     "Demonstrated strong problem-solving and debugging skills, ensuring robust and efficient software delivery."
+  //   ]
+  // },
   {
     title: "Software Developer",
     company_name: "Netsol Technology",
@@ -188,24 +189,24 @@ const experiences = [
       "Gained expertise in teamwork and problem-solving, contributing to the successful execution of complex projects within tight deadlines.",
     ],
   },
-  {
-    title: "Teacher Assistant",
-    company_name: "FAST NUCES",
-    icon: FastNuces,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Assisted the professor in evaluating assignments and projects for the Software Mobile Devices course.",
-      "Conducted demo sessions to review and assess students' assignments, ensuring clarity of concepts and proper implementation.",
-      "Supported students by addressing queries related to course assignments and projects.",
-    ],
-  },
+  // {
+  //   title: "Teacher Assistant",
+  //   company_name: "FAST NUCES",
+  //   icon: FastNuces,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Feb 2022",
+  //   points: [
+  //     "Assisted the professor in evaluating assignments and projects for the Software Mobile Devices course.",
+  //     "Conducted demo sessions to review and assess students' assignments, ensuring clarity of concepts and proper implementation.",
+  //     "Supported students by addressing queries related to course assignments and projects.",
+  //   ],
+  // },
   {
     title: "Software Engineer intern",
     company_name: "Keyob",
     icon: keyob,
     iconBg: "#FFFFFF",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jun 2021 - Aug 2021",
     points: [
       "Conducted comprehensive software testing, identifying bugs and ensuring system functionality and reliability.",
       "Reviewed the entire software flow to validate processes and ensure seamless user experience.",
@@ -213,18 +214,18 @@ const experiences = [
       "Collaborated with the development team to enhance software quality through detailed feedback and testing reports.",
     ],
   },
-  {
-    title: "Teacher Assistant",
-    company_name: "FAST NUCES",
-    icon: FastNuces,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Assisted the professor during lab sessions, guiding students in implementing Object-Oriented Programming (OOP) concepts and resolving technical issues.",
-      "Reviewed and evaluated students' assignments and code, ensuring compliance with OOP principles and best practices.",
-      "Helped students by addressing queries and clarifying complex concepts during lab sessions.",
-    ],
-  },
+  // {
+  //   title: "Teacher Assistant",
+  //   company_name: "FAST NUCES",
+  //   icon: FastNuces,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Feb 2022",
+  //   points: [
+  //     "Assisted the professor during lab sessions, guiding students in implementing Object-Oriented Programming (OOP) concepts and resolving technical issues.",
+  //     "Reviewed and evaluated students' assignments and code, ensuring compliance with OOP principles and best practices.",
+  //     "Helped students by addressing queries and clarifying complex concepts during lab sessions.",
+  //   ],
+  // },
 ];
 
 const educations = [

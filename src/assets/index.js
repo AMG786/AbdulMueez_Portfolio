@@ -47,6 +47,7 @@ import tripguide from "./tripguide.png";
 import android_developer from "./android_developer.png";
 import react_native from "./react_native.png";
 import azure from "./azure.png";
+import aws from "./aws.png";
 
 import firebase from "./Firebase.png";
 
@@ -92,6 +93,7 @@ export {
   tripguide,
   android_developer,
   azure,
+  aws,
   keyob,
   firebase,
   react_native,
