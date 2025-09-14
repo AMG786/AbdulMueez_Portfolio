@@ -49,7 +49,7 @@ export const navLinks = [
   // {
   //   id: "https://drive.google.com/file/d/10QNOZ_q-F81KDoUtrYPu3SKZAiAupo8U/view?usp=sharing",
   //   title: "My Resume",
-  // },
+  // }, ,
   {
     id: "#Education",
     title: "Education",
