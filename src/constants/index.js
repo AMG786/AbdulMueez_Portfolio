@@ -137,19 +137,19 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "Software Engineer (Private Consulting)",
-  //   company_name: "HackersJack",
-  //   icon: hackersjack,
-  //   iconBg: "#ffffff",
-  //   date: "March 2022 - Jul 2023",
-  //   points: [
-  //     "Conducted comprehensive application testing, systematically identifying and resolving bugs to enhance overall software performance and user experience",
-  //     "Collaborated with a development team to design, implement, and integrate new application modules, contributing to the expansion of software functionality",
-  //     "Performed thorough quality assurance testing to ensure smooth application operation and optimal user interaction",
-  //     "Participated in collaborative development processes, working closely with team members to achieve project milestones and maintain high standards of software quality.",
-  //   ],
-  // },
+  {
+    title: "Software Engineer (Private Consulting)",
+    company_name: "HackersJack",
+    icon: hackersjack,
+    iconBg: "#ffffff",
+    date: "March 2022 - Jul 2023",
+    points: [
+      "Conducted comprehensive application testing, systematically identifying and resolving bugs to enhance overall software performance and user experience",
+      "Collaborated with a development team to design, implement, and integrate new application modules, contributing to the expansion of software functionality",
+      "Performed thorough quality assurance testing to ensure smooth application operation and optimal user interaction",
+      "Participated in collaborative development processes, working closely with team members to achieve project milestones and maintain high standards of software quality.",
+    ],
+  },
   // {
   //   title: "SEBE Peer Mentor",
   //   company_name: "Deakin University",
@@ -189,18 +189,18 @@ const experiences = [
       "Gained expertise in teamwork and problem-solving, contributing to the successful execution of complex projects within tight deadlines.",
     ],
   },
-  // {
-  //   title: "Teacher Assistant",
-  //   company_name: "FAST NUCES",
-  //   icon: FastNuces,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Assisted the professor in evaluating assignments and projects for the Software Mobile Devices course.",
-  //     "Conducted demo sessions to review and assess students' assignments, ensuring clarity of concepts and proper implementation.",
-  //     "Supported students by addressing queries related to course assignments and projects.",
-  //   ],
-  // },
+  {
+    title: "Teacher Assistant",
+    company_name: "FAST NUCES",
+    icon: FastNuces,
+    iconBg: "#E6DEDD",
+    date: "Jan 2021 - Feb 2022",
+    points: [
+      "Assisted the professor in evaluating assignments and projects for the Software Mobile Devices course.",
+      "Conducted demo sessions to review and assess students' assignments, ensuring clarity of concepts and proper implementation.",
+      "Supported students by addressing queries related to course assignments and projects.",
+    ],
+  },
   {
     title: "Software Engineer intern",
     company_name: "Keyob",
@@ -214,18 +214,18 @@ const experiences = [
       "Collaborated with the development team to enhance software quality through detailed feedback and testing reports.",
     ],
   },
-  // {
-  //   title: "Teacher Assistant",
-  //   company_name: "FAST NUCES",
-  //   icon: FastNuces,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Assisted the professor during lab sessions, guiding students in implementing Object-Oriented Programming (OOP) concepts and resolving technical issues.",
-  //     "Reviewed and evaluated students' assignments and code, ensuring compliance with OOP principles and best practices.",
-  //     "Helped students by addressing queries and clarifying complex concepts during lab sessions.",
-  //   ],
-  // },
+  {
+    title: "Teacher Assistant",
+    company_name: "FAST NUCES",
+    icon: FastNuces,
+    iconBg: "#E6DEDD",
+    date: "Jan 2021 - Feb 2022",
+    points: [
+      "Assisted the professor during lab sessions, guiding students in implementing Object-Oriented Programming (OOP) concepts and resolving technical issues.",
+      "Reviewed and evaluated students' assignments and code, ensuring compliance with OOP principles and best practices.",
+      "Helped students by addressing queries and clarifying complex concepts during lab sessions.",
+    ],
+  },
 ];
 
 const educations = [
