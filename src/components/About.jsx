@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import amg2 from "../assets/amg2.png";
+import amg2 from "../assets/amg1.png";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -43,10 +43,11 @@ const About = () => {
           variants={fadeIn("right", "spring", 0.2, 1)}
           className="w-full lg:w-1/2 flex justify-center"
         >
+          
           <img
             src={amg2}
             alt="About"
-            className="w-full max-w-sm h-auto rounded-[20px] object-cover shadow-lg"
+            className="w-full max-w-sm h-auto rounded-[20px] object-cover shadow-lg border-[#915EFF]/40 shadow-2xl shadow-[#915EFF]/20 bg-gradient-to-br from-[#0b1220] to-[#05030a] flex items-center"
           />
         </motion.div>
         {/* Text Section */}
