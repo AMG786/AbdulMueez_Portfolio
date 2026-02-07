@@ -265,29 +265,30 @@ const educations = [
 
 
 const testimonials = [
+
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Ikram Akbar",
-    designation: "Founder",
-    company: "hackersjack.com",
-    image: "https://media.licdn.com/dms/image/v2/C5603AQGBT7U38OdMvg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1610115220543?e=1739404800&v=beta&t=_vhTDcu0YWJtUbj18mzGUqdAk1X75dh_25B6trD-ApA",
+      "Abdul Mueez is an exceptional Software Engineer. I had the opportunity to work with him on a Netsol project, and he demonstrated excellent technical skills, a strong work ethic, and a great ability to solve complex problems. His professionalism and dedication were impressive, making him a valuable team member.",
+    name: "Muhammad Saqib Javed",
+    designation: "Principal Software Engineer",
+    company: "NETSOL Technology Inc",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQFZuuYNewXGnA/profile-displayphoto-crop_800_800/B4DZkfOTRnHsAM-/0/1757165496183?e=1772064000&v=beta&t=0sf4pH8ORsofsUjMaLWTsZVz-oRBKFYIJ_-h60J2NDM",
   },
-  {
+    {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "You have shown persistence and resilience towards learning, practicing and experimenting with systems and variations of programming languages throughout the time I have taught you. It’s a great skill to have! Trial and error! Good luck!",
     name: "Dr. Mifrah Ahmad",
     designation: "Senior Lecturer",
     company: "Deakin University",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQHDqyi5XPI_hA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698298647298?e=1739404800&v=beta&t=dK2O62KVQyYoonAkO2pcjD9MBQBEQkhTZ2co0eajvmY",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQHDqyi5XPI_hA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698298647298?e=1772064000&v=beta&t=tGCd9q6Gi9iISHPlXCxTjVUPHmwJC2eNxe-qpCkuLyE",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "It is my pleasure to recommend Abdul Mueez, a highly skilled and dedicated professional I had the privilege of studying alongside in my BS in Computer Science at FAST NUCES Islamabad. During our time at university, we collaborated on our Final Year Project as well as several app development competitions, where his expertise in Android app development and software development played a key role in our success. Finishing among the winners in these competitions is a testament to his technical abilities and problem-solving skills. What truly sets Abdul Mueez apart is his collaborative spirit and exceptional teamwork. He is a natural team player, always willing to contribute his skills and support to ensure the group's success. His ability to work seamlessly with others while maintaining a high standard of professionalism is commendable. Abdul is not only a talented developer but also a dependable and innovative thinker. I am confident that his skills and dedication will make him an invaluable asset to any team or organization. I wholeheartedly recommend him and am certain he will excel in any endeavor he pursues.",
+    name: "Armughan Aslam",
+    designation: "AI Engineer",
+    company: "FAST NUCES",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQHFtoQ2FBWBDg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1684753508166?e=2147483647&v=beta&t=-4uK8Y3SBiRsLTEKOo8FFK4smSG1nukWgvGDVFtkbXg",
   },
 ];
 
