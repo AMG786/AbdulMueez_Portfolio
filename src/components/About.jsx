@@ -54,16 +54,9 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="text-secondary text-[17px] leading-[30px] max-w-3xl mt-5"
         >
-          I am Abdul, a passionate and skilled Software Engineer with extensive
-          experience in Android development using Java, Kotlin, and Android
-          Studio, as well as web development with React, Next.js, Node.js,
-          TypeScript, and React Native. With a strong foundation in building
-          efficient, scalable, and user-friendly applications, I thrive on
-          creating impactful solutions for real-world challenges. Whether it's
-          crafting seamless mobile apps or developing dynamic web applications,
-          I take pride in delivering quality work and collaborating closely with
-          clients to turn their ideas into reality. Let’s create something
-          extraordinary together! 😊
+          I am Abdul, a Full Stack Software Engineer specializing in building scalable web and native applications. With expertise in Nextjs, React and Node.js, I develop robust, production-ready systems with clean architecture and efficient APIs. On the mobile side, I build high-performance native applications using React Native and Android (Java/Kotlin).
+          <br /><br />
+          I excel in deploying and managing applications on AWS, leveraging cloud services for scalability and reliability. My approach combines modern development practices with a focus on user experience and code quality, delivering solutions that impact real-world challenges across web and mobile platforms. 😊
         </motion.p>
       </div>
 

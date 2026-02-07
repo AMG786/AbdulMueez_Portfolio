@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -13,6 +13,9 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const displayPoints = isExpanded ? experience.points : experience.points.slice(0, 2);
+
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -43,7 +46,7 @@ const ExperienceCard = ({ experience }) => {
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
-        {experience.points.map((point, index) => (
+        {displayPoints.map((point, index) => (
           <li
             key={`experience-point-${index}`}
             className='text-white-100 text-[14px] pl-1 tracking-wider'
@@ -52,6 +55,15 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+
+      {experience.points.length > 2 && (
+        <button
+          onClick={() => setIsExpanded(!isExpanded)}
+          className='mt-4 px-4 py-2 bg-[#915EFF] hover:bg-[#804dee] text-white text-[14px] font-semibold rounded-lg transition-colors'
+        >
+          {isExpanded ? "Show Less" : "Show More"}
+        </button>
+      )}
     </VerticalTimelineElement>
   );
 };

@@ -66,15 +66,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Android developer",
-    icon: android_developer,
-  },
-  {
     title: "React",
     icon: react_native,
   },
   {
-    title: "Web Developer",    
+    title: "Node js",
+    icon: nodejs,
+  },
+  {
+    title: "React Native",    
     icon: web,
   },
   {
@@ -97,10 +97,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -138,16 +138,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer (Private Consulting)",
+    title: "Full Stack Software Engineer (Contract)",
     company_name: "HackersJack",
     icon: hackersjack,
     iconBg: "#ffffff",
-    date: "March 2022 - Jul 2023",
+    date: "Oct 2023 - Aug 2025",
     points: [
-      "Conducted comprehensive application testing, systematically identifying and resolving bugs to enhance overall software performance and user experience",
-      "Collaborated with a development team to design, implement, and integrate new application modules, contributing to the expansion of software functionality",
-      "Performed thorough quality assurance testing to ensure smooth application operation and optimal user interaction",
-      "Participated in collaborative development processes, working closely with team members to achieve project milestones and maintain high standards of software quality.",
+      "Joined the team initially to perform extensive QA and bug fixing, helping stabilise the existing education platform and making it production-ready by resolving critical UI and functional issues.",
+      "Played a key role in improving overall application reliability, performance, and usability through continuous testing and refinements.",
+      "Transitioned into a development role and worked on building and enhancing core platform features, including Teacher, Student, Quiz, and Course modules.",
+      "Developed and maintained frontend components using React.js, focusing on clean UI, reusable components, and responsive design.",
+      "Contributed to backend development using Node.js, implementing APIs and supporting feature integrations between the frontend and backend.",
+      "Collaborated closely with designers and other developers to deliver features aligned with real classroom and user needs in an agile environment.",
     ],
   },
   // {
@@ -177,16 +179,19 @@ const experiences = [
   //   ]
   // },
   {
-    title: "Software Developer",
-    company_name: "Netsol Technology",
+    title: "Software Engineer",
+    company_name: "NETSOL Technology Inc",
     icon: netsol,
     iconBg: "#ffffff",
-    date: "March 2022 - Jul 2023",
+    date: "Mar 2022 - Jul 2023",
     points: [
-      "Developed Android applications using Kotlin and Java, following MVVM architecture and Clean Architecture design patterns for scalable and maintainable codebases.",
-      "Collaborated in an Agile Scrum team, leveraging tools like Jira for sprint planning, task tracking, and project management.",
-      "Delivered high-quality mobile applications with a focus on performance optimization, UI/UX consistency, and cross-team collaboration.",
-      "Gained expertise in teamwork and problem-solving, contributing to the successful execution of complex projects within tight deadlines.",
+      "Developed and maintained a KPK Senate App using React.js, used by tens of thousands of officials across the Senate and KPK Province Pakistan and digitizing workflow processes.",
+      "Developed and implemented features using React, component-based architecture, and state management patterns, ensuring scalability, maintainability, and consistent user experience.",
+      "Applied Material Design principles to create intuitive and user-friendly interfaces for task management and approval workflows.",
+      "Integrated REST APIs and managed local data storage using browser storage or state management tools, enabling seamless online/offline functionality.",
+      "Collaborated in Agile teams, using Jira for sprint planning, task tracking, and communication with product managers and designers.",
+      "Participated in the app deployment process, including production build and deployment to web servers, to successfully launch the application.",
+      "Additionally contributed to Android development using Kotlin, applying MVVM and Clean Architecture principles.",
     ],
   },
   {
@@ -201,14 +206,14 @@ const experiences = [
       "Supported students by addressing queries related to course assignments and projects.",
     ],
   },
-  {
-    title: "Software Engineer intern",
-    company_name: "Keyob",
+    {
+    title: "Software Engineer Intern",
+    company_name: "KeyOb",
     icon: keyob,
     iconBg: "#FFFFFF",
     date: "Jun 2021 - Aug 2021",
     points: [
-      "Conducted comprehensive software testing, identifying bugs and ensuring system functionality and reliability.",
+      "Assisted in QA and testing for the ERP system, participated in team meetings, and collaborated with developers to report issues and validate fixe",
       "Reviewed the entire software flow to validate processes and ensure seamless user experience.",
       "Participated in team meetings to discuss software improvements and provide insights based on testing outcomes.",
       "Collaborated with the development team to enhance software quality through detailed feedback and testing reports.",
