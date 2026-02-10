@@ -43,6 +43,8 @@ import workload from "./workload.png";
 
 import MediaMancer from "./MediaMancer.png";
 import tripguide from "./tripguide.png";
+import yarnbot from "./yarnbot.png";
+import itams from "./itams.png";
 
 import android_developer from "./android_developer.png";
 import react_native from "./react_native.png";
@@ -90,6 +92,8 @@ export {
   FundRaisingApp,
   kun,
   MediaMancer,
+  yarnbot,
+  itams,
   tripguide,
   android_developer,
   azure,

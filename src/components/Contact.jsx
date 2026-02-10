@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+// contact sharing: copies email and phone to clipboard on send
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -30,41 +30,40 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    console.log("D1");
-    console.log("D2");
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "Abdul Mueez",
-          from_email: form.email,
-          to_email: "abdulmueez917@gmail.com",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => {
-          console.log("D3");
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+    const contactText = `Email: abdulmueez917@gmail.com\nPhone: +61 410097864`;
 
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
+    const copyToClipboard = async (text) => {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(text);
+      }
+      // fallback
+      const el = document.createElement("textarea");
+      el.value = text;
+      document.body.appendChild(el);
+      el.select();
+      try {
+        document.execCommand("copy");
+        document.body.removeChild(el);
+        return Promise.resolve();
+      } catch (err) {
+        document.body.removeChild(el);
+        return Promise.reject(err);
+      }
+    };
 
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
-    console.log("D4");
+    copyToClipboard(contactText)
+      .then(() => {
+        setLoading(false);
+        alert(
+          `Contact details copied to clipboard:\n\nEmail: abdulmueez917@gmail.com\nPhone: +61 410097864`
+        );
+        setForm({ name: "", email: "", message: "" });
+      })
+      .catch((err) => {
+        setLoading(false);
+        console.error(err);
+        alert("Unable to copy to clipboard. Here are the details:\n" + contactText);
+      });
   };
 
   return (
@@ -83,46 +82,17 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
-          <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Name</span>
-            <input
-              type="text"
-              name="name"
-              value={form.name}
-              onChange={handleChange}
-              placeholder="What's your name?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-          </label>
-          <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your email</span>
-            <input
-              type="email"
-              name="email"
-              value={form.email}
-              onChange={handleChange}
-              placeholder="What's your email?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-          </label>
-          <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Message</span>
-            <textarea
-              rows={7}
-              name="message"
-              value={form.message}
-              onChange={handleChange}
-              placeholder="What you want to say?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-          </label>
+          <div className="flex flex-col">
+            <span className="text-white font-medium mb-4">Email</span>
+            <div className="bg-tertiary py-4 px-6 text-secondary rounded-lg">abdulmueez917@gmail.com</div>
+          </div>
 
-          <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className="flex flex-col">
+            <span className="text-white font-medium mb-4">Contact Number</span>
+            <div className="bg-tertiary py-4 px-6 text-secondary rounded-lg">+61 410097864</div>
+          </div>
+
+          {/* Send button removed per request */}
         </form>
       </motion.div>
 

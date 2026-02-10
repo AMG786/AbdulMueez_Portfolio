@@ -26,7 +26,6 @@ import {
   workload,
   FundRaisingApp,
   kun,
-  MediaMancer,
   tripguide,
   threejs,
   android_developer,
@@ -39,6 +38,8 @@ import {
   keyob,
   FastNuces,
   firebase,
+  yarnbot,
+  itams,
 } from "../assets";
 
 export const navLinks = [
@@ -295,6 +296,62 @@ const testimonials = [
 const projects = [
   
   {
+    name: "YarnBot",
+    description:
+      "A cloud-native AI assistant with a distinctive Australian accent that enables users to upload PDF and Word files for instant summarization and key point extraction. Features include a futuristic, responsive UI, real-time markdown rendering, secure multi-user session management, and robust cloud deployment for high performance.",
+    tags: [
+      { name: "nextjs", color: "blue-text-gradient" },
+      { name: "fastapi", color: "green-text-gradient" },
+      { name: "docker", color: "pink-text-gradient" },
+      { name: "aws", color: "orange-text-gradient" },
+      { name: "firebase", color: "green-text-gradient" },
+      { name: "mongodb", color: "blue-text-gradient" },
+      { name: "AI", color: "pink-text-gradient" },
+    ],
+    image: yarnbot,
+    source_code_link: "https://github.com/AMG786/YarnBot",
+    live_link: "https://yarn-bot.vercel.app/",
+  },
+  {
+    name: "ITAMS",
+    description:
+      "An intelligent, serverless task and activity management system offering real-time analytics, multi-criteria filtering, and secure JWT authentication. Supports per-user data isolation, automatic scaling via Lambda functions, and CI/CD deployment. Users can manage priorities, track overdue tasks, search, and organize activities by category using a modern responsive UI.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "aws", color: "orange-text-gradient" },
+      { name: "serverless", color: "green-text-gradient" },
+      { name: "dynamodb", color: "blue-text-gradient" },
+      { name: "lambda", color: "pink-text-gradient" },
+      { name: "api-gateway", color: "green-text-gradient" },
+      { name: "cognito", color: "orange-text-gradient" },
+      { name: "CI/CD", color: "pink-text-gradient" },
+    ],
+    image: itams,
+    source_code_link: "https://github.com/AMG786/ITAMS",
+    live_link: "https://main.d12ogiakfc9r01.amplifyapp.com/",
+  },
+  {
+    name: "Vintrade",
+    description:
+      "A modern e-commerce application built on React and Firebase for buying and selling vintage products. The application features product listing categorized by type, cart management, a discount system, and seamless product purchasing and selling functionality.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vintrade,
+    source_code_link: "https://github.com/AbdulMueez786/vintrade",
+  },
+  {
     name: "NoteMinds",
     description:
       "An AI-powered platform designed to convert videos, PDFs, and books into interactive conversations. It provides users with features like summarization, note-taking, multi-language translation, and question-answer extraction to enhance learning and productivity.",
@@ -316,48 +373,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: NoteMinds, // replace `notemindsImage` with the actual image variable or path
-    // source_code_link: "https://github.com/AMG786/MediaMancer",
-    // live_link: "https://github.com/AMG786/MediaMancer",
-  },  
-  {
-    name: "MediaMancer",
-    description:
-      "A platform that leverages a Large Language Model (LLM) to generate platform-specific posts by gathering user input through targeted questions.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-    ],
-    image: MediaMancer,
-    source_code_link: "https://github.com/AMG786/MediaMancer",
-    live_link: "https://media-mancer.vercel.app/",
-  },  
-  {
-    name: "Vintrade",
-    description:
-      "A modern e-commerce application built on React and Firebase for buying and selling vintage products. The application features product listing categorized by type, cart management, a discount system, and seamless product purchasing and selling functionality.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: vintrade,
-    source_code_link: "https://github.com/AbdulMueez786/vintrade",
+    image: NoteMinds,
   },
 ];
 
